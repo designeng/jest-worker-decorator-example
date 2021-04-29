@@ -1,0 +1,29 @@
+{
+  "name": "jest-worker-decorator-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./runner",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "axios": "^0.21.1",
+    "chalk": "^2.4.2",
+    "jest-worker": "^26.6.2",
+    "lightwire.js": "^0.4.0",
+    "lodash": "^4.17.21",
+    "when": "^3.7.8"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.13.16",
+    "@babel/plugin-proposal-decorators": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/register": "^7.13.16"
+  }
+}
